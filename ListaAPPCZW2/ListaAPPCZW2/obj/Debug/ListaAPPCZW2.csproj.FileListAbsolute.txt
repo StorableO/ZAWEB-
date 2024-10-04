@@ -1,0 +1,7 @@
+C:\Users\4c2\source\repos\ListaAPPCZW2\ListaAPPCZW2\bin\Debug\ListaAPPCZW2.exe.config
+C:\Users\4c2\source\repos\ListaAPPCZW2\ListaAPPCZW2\bin\Debug\ListaAPPCZW2.exe
+C:\Users\4c2\source\repos\ListaAPPCZW2\ListaAPPCZW2\bin\Debug\ListaAPPCZW2.pdb
+C:\Users\4c2\source\repos\ListaAPPCZW2\ListaAPPCZW2\obj\Debug\ListaAPPCZW2.csproj.AssemblyReference.cache
+C:\Users\4c2\source\repos\ListaAPPCZW2\ListaAPPCZW2\obj\Debug\ListaAPPCZW2.csproj.CoreCompileInputs.cache
+C:\Users\4c2\source\repos\ListaAPPCZW2\ListaAPPCZW2\obj\Debug\ListaAPPCZW2.exe
+C:\Users\4c2\source\repos\ListaAPPCZW2\ListaAPPCZW2\obj\Debug\ListaAPPCZW2.pdb

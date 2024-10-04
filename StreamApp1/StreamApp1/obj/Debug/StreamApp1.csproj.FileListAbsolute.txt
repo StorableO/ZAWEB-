@@ -1,0 +1,7 @@
+C:\Users\4c2\source\repos\StreamApp1\StreamApp1\bin\Debug\StreamApp1.exe.config
+C:\Users\4c2\source\repos\StreamApp1\StreamApp1\bin\Debug\StreamApp1.exe
+C:\Users\4c2\source\repos\StreamApp1\StreamApp1\bin\Debug\StreamApp1.pdb
+C:\Users\4c2\source\repos\StreamApp1\StreamApp1\obj\Debug\StreamApp1.csproj.AssemblyReference.cache
+C:\Users\4c2\source\repos\StreamApp1\StreamApp1\obj\Debug\StreamApp1.csproj.CoreCompileInputs.cache
+C:\Users\4c2\source\repos\StreamApp1\StreamApp1\obj\Debug\StreamApp1.exe
+C:\Users\4c2\source\repos\StreamApp1\StreamApp1\obj\Debug\StreamApp1.pdb

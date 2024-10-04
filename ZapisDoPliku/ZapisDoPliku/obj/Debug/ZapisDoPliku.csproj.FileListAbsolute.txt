@@ -1,0 +1,7 @@
+C:\Users\4c2\source\repos\ZapisDoPliku\ZapisDoPliku\bin\Debug\ZapisDoPliku.exe.config
+C:\Users\4c2\source\repos\ZapisDoPliku\ZapisDoPliku\bin\Debug\ZapisDoPliku.exe
+C:\Users\4c2\source\repos\ZapisDoPliku\ZapisDoPliku\bin\Debug\ZapisDoPliku.pdb
+C:\Users\4c2\source\repos\ZapisDoPliku\ZapisDoPliku\obj\Debug\ZapisDoPliku.csproj.AssemblyReference.cache
+C:\Users\4c2\source\repos\ZapisDoPliku\ZapisDoPliku\obj\Debug\ZapisDoPliku.csproj.CoreCompileInputs.cache
+C:\Users\4c2\source\repos\ZapisDoPliku\ZapisDoPliku\obj\Debug\ZapisDoPliku.exe
+C:\Users\4c2\source\repos\ZapisDoPliku\ZapisDoPliku\obj\Debug\ZapisDoPliku.pdb

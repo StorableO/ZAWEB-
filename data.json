@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "Title": "Władca Pierścieni",
+    "Author": "J.R.R. Tolkien",
+    "Year": 1954,
+    "Genre": "Fantasy"
+  },
+  {
+    "Id": 2,
+    "Title": "Harry Potter i Kamień Filozoficzny",
+    "Author": "J.K. Rowling",
+    "Year": 1997,
+    "Genre": "Fantasy"
+  },
+  {
+    "Id": 3,
+    "Title": "Hobbit",
+    "Author": "J.R.R. Tolkien",
+    "Year": 1937,
+    "Genre": "Fantasy"
+  },
+  {
+    "Id": 4,
+    "Title": "1984",
+    "Author": "George Orwell",
+    "Year": 1949,
+    "Genre": "Dystopia"
+  },
+  {
+    "Id": 5,
+    "Title": "Brave New World",
+    "Author": "Aldous Huxley",
+    "Year": 1932,
+    "Genre": "Dystopia"
+  },
+  {
+    "Id": 0,
+    "Title": "Wesele",
+    "Author": "Stanisław Wyspiański",
+    "Year": 1901,
+    "Genre": "dramat"
+  }
+]

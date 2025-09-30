@@ -1,0 +1,6 @@
+Monitor_Acer;2;2300
+Iphone_17;5;4900
+Samsung_s24;9;3850
+Mouse_logitech;1;200
+Headphones_Asus;4;1200
+Nokia_3310;1;400

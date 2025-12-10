@@ -1,0 +1,45 @@
+﻿<Window x:Class="Zadanie1WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie1WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFE0E0E0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="500"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="lable1" Content="Pracownik" HorizontalAlignment="Center" Height="100" Width="280" VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="28" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="tbImie" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Jan Kowalski" VerticalAlignment="Center" Width="280" Height="40" VerticalContentAlignment="Center" FontSize="20" FontFamily="Bahnschrift Light" FontWeight="Bold" Padding="4,0,0,0"/>
+        <Label x:Name="label2" Content="Data" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="34" Width="50" VerticalContentAlignment="Center" FontSize="20" FontFamily="Bahnschrift"/>
+        <DatePicker x:Name="dpData" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" Height="34" Width="225" VerticalContentAlignment="Center" UseLayoutRounding="True" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI Variable Display Semibold" Margin="65,0,0,0"/>
+        <Label x:Name="label3" Content="Czas pracy" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="36" Width="140" VerticalContentAlignment="Center" FontSize="20" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="tbGodziny" HorizontalAlignment="Left" Margin="131,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="8" VerticalAlignment="Center" Width="47" Height="36" VerticalContentAlignment="Center" FontSize="20" FontFamily="Bahnschrift"/>
+        <Button x:Name="btndodaj"  Content="Dodaj Wpis" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="40" Width="270" Background="#FF2B96F9" Foreground="White" FontSize="20" FontFamily="Bahnschrift" Click="btndodaj_Click"/>
+        <DataGrid x:Name="dgDane" Grid.Column="1" Width="480" Margin="10,40,10,10" Grid.RowSpan="5" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="140" Header="Pracownik" Binding="{Binding Pracownik}"></DataGridTextColumn>
+                <DataGridTextColumn Width="100" Header="Data"  Binding="{Binding Data}"></DataGridTextColumn>
+                <DataGridTextColumn Width="120" Header="Godziny"  Binding="{Binding Godziny}"></DataGridTextColumn>
+                <DataGridTemplateColumn Width="100" Header="Akcje">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnUsun"  Content="Usun" Click="btnUsun_Click" Background="#FFC80000" Foreground="White">
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
